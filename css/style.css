@@ -5,11 +5,75 @@
   body {
     margin: 0;
     font-family: Helvetica;
+    background-color: rgb(17, 84, 85);
   }
 
-  div {
-    width: 60rem;
-    height: 30rem;
-    background-color: blue;
+  #picture-el > img {
+    display: block;
+    max-width:70%;
+    max-height:70%;
+    border-radius: 50%;
+    border: 5px solid rgb(91, 204, 124);
+  }
+  #stars-el > img {
+    display: block;
+    height: 10%;
+  } 
+
+  #container {
+    margin: 5rem;
+    width: 120vh;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  #left-side-box {
+    display: grid;
+    grid-template-rows: 0.3fr 3.9fr 0.8fr;
+  }
+
+  #online-el {
+    color: rgb(91, 91, 91);
+    background-color: white;
+  }
+
+  #online-p-tag {
+    margin-left: 10px;
+  }
+
+  #picture-el {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  #contact-el {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #right-contact-el {
+    background-color: rgb(80, 181, 112)
+  }
+
+  #left-contact-el {
+    background-color: rgb(91, 203, 126);
+  }
+
+  #right-side-box {
+    padding-left: 50px;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr;
+    background-color: rgb(241, 241, 241);
+  }
+
+  h1 {
+    font-size: 3.8em;
+  }
+
+  #psychic-el, #depression-el {
+    border-bottom: solid #000000;
   }
   

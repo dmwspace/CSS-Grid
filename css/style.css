@@ -17,7 +17,7 @@
   }
   #stars-el > img {
     display: block;
-    height: 10%;
+    height: 50%;
   } 
 
   #container {
@@ -45,8 +45,8 @@
   #picture-el {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: white;
+    padding-top: 20%;
   }
 
   #contact-el {
@@ -65,7 +65,7 @@
   #right-side-box {
     padding-left: 50px;
     display: grid;
-    grid-template-rows: 1fr 0.5fr 0.5fr 1fr 0.5fr;
+    grid-template-rows: 1.3fr 0.2fr 0.2fr 1.5fr 1.0fr;
     background-color: rgb(241, 241, 241);
   }
 
@@ -73,7 +73,22 @@
     font-size: 3.8em;
   }
 
-  #psychic-el, #depression-el {
-    border-bottom: solid #000000;
+  #depression-el {
+    padding-left: 20px;
+    border-left: 4px solid rgb(80, 181, 112)
+  }
+
+  #psychic-el > p {
+    font-size: 1.4em;
+  }
+
+  #depression-el > p {
+    font-size: 1.4em;
+    color: rgb(161, 161, 161)
+  }
+  
+   #mins-el > p > span {
+    font-size: 1.4em;
+    font-weight: bold
   }
   
